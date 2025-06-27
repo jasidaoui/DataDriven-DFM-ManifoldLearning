@@ -12,6 +12,6 @@ We model the series of stock returns via a classical macroeconomic factor model 
 
 ## Code
 
-The code file _jdkf.ipynb_ is a self-contained Jupyter notebook that implements the version of the diffusion maps algorithm used in our paper (i.e. with the modified Mahalanobis distance and RBF kernel), and the joint diffusion Kalman filter for the linear case. The notebook _benchmarks.ipynb_ implements our benchmark algorithms, namely SSA, Static PCA, and Dynamic PCA. Finally, the notebook _backtesting_algorithm.ipynb_ implements our historical backtesting algorithm with periodic re-fitting of our Kalman filter using the functions defined in _jdkf.ipynb_ and _benchmarks.ipynb_. 
+The code file _jdkf.ipynb_ is a self-contained Jupyter notebook that implements the version of the diffusion maps algorithm used in our paper (i.e. with the modified Mahalanobis distance and RBF kernel), and the joint diffusion Kalman filter for the linear case. The notebook _backtest_benchmarks.ipynb_ implements our benchmark algorithms, namely SSA, Static PCA, and Dynamic PCA, and implements our historical backtesting algorithm with periodic re-fitting of our Kalman filter using the JDKF helper functions defined in _jdkf.ipynb_. 
 
-Additionally, we include the notebook _example_3_3.ipynb_ which implements the simulation for eigenfunction and stochastic process recovery from Example 3.3 in our paper. 
+Finally, we include the notebook _example_3_3.ipynb_ which implements the simulation for eigenfunction and stochastic process recovery from Example 3.3 in our paper. 
