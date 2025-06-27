@@ -8,7 +8,7 @@ Authors: [Agostino Capponi](https://www.columbia.edu/~ac3827/), [Graeme Baker](h
 
 Contact Jose [jas2545@columbia.edu](mailto:jas2545@columbia.edu) or Graeme [gb2847@columbia.edu](mailto:gb2847@columbia.edu) for questions.
 ## Data
-
+We model the series of stock returns via a classical macroeconomic factor model with the 124 FRED-MD macro-level factors from [McCracken & Ng](https://www.tandfonline.com/doi/full/10.1080/07350015.2015.1086655) plus the 8 macroeconomic factors from [Goyal & Welch](https://academic.oup.com/rfs/article-abstract/21/4/1455/1565737). This gives us a total of D=132 common factors. We utilize the curated data version as provided from [Chen, et. al](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2023.4695). The monthly stock returns data is obtained from CRSP. The time period considered is 1967-2016. We consider stocks trading in the NYSE, NASDAQ, and the American Stock Exchange.
 
 ## Code
 
